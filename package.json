@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-google-maps/api": "^2.19.2",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.33.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "googleapis": "^129.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.5",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.7",
+    "react-google-charts": "^4.0.0",
+    "streamifier": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
